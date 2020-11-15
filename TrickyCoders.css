@@ -1,0 +1,79 @@
+* {
+    margin-top: 0;
+    box-sizing: border-box;
+    transform-style: flat;
+    transition: all 0.5s linear;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.Nunito {
+    font-family: 'Nunito', sans-serif;
+}
+
+.Raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+.img-logo {
+    max-width: 50px;
+}
+
+.head1set {
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.center {
+    text-align: center;
+}
+
+@media(max-width:576px) {
+    .head1set {
+        font-size: 50px;
+    }
+    .backimg1 {
+        min-height: 200px !important;
+        height: fit-content;
+    }
+}
+
+@media(max-width:767px) {
+    .backimg1 {
+        min-height: 200px !important;
+        height: fit-content;
+    }
+}
+
+.backimg1 {
+    background: url("images/MSR-AI_Brain-Hero_sm.jpg") no-repeat right;
+    background-color: #cccccc;
+    width: 100%;
+    min-height: 600px;
+    height: auto;
+    background-size: cover;
+    color: white;
+}
+
+.backimg1-text {
+    max-width: 500px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.backimg1-ft {
+    padding: auto 0 auto 0;
+    text-shadow: 4px 4px 5px #000;
+}
+
+.bg-bluedark {
+    background-color: #040023 !important;
+}
+
+.footer {
+    margin-top: 100px;
+    min-height: 200px;
+    color: white;
+}
