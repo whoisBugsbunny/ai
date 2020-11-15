@@ -2,7 +2,7 @@
     margin-top: 0;
     box-sizing: border-box;
     transform-style: flat;
-    transition: all 0.5s linear;
+    transition: all 0.3s linear;
 }
 
 html {
@@ -70,6 +70,21 @@ html {
 
 .bg-bluedark {
     background-color: #040023 !important;
+}
+
+.ai-img-s {
+    max-width: inherit;
+    width: 100%;
+    align-items: center;
+    border-top: 2px solid #D310CE;
+    border-left: 2px solid #D310CE;
+    border-bottom: 2px solid #3097F1;
+    border-right: 2px solid #3097F1;
+    border-radius: 5px;
+}
+
+.col-min {
+    min-width: 400px;
 }
 
 .footer {
