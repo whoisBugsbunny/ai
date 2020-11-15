@@ -24,6 +24,31 @@ html {
 .head1set {
     padding: 10px;
     font-weight: bolder;
+    animation: moves 0.9s;
+    transition: 1s;
+}
+
+@keyframes moves {
+    0% {
+        opacity: 0;
+        ;
+    }
+    25% {
+        opacity: 0.3;
+        ;
+    }
+    50% {
+        opacity: 0.6;
+        ;
+    }
+    75% {
+        opacity: 0.8;
+        ;
+    }
+    100% {
+        opacity: 1;
+        ;
+    }
 }
 
 .center {
